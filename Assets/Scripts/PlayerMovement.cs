@@ -7,12 +7,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D playerRB;
     [SerializeField] private float jumpForce = 10f;
     [SerializeField] private float jumpTime = 0.3f;
+
     [SerializeField] private Transform feetPos; // generate physics detector
     [SerializeField] private LayerMask groundLayer; // layers of object
 
     private bool isGrounded;
 
     private bool isJumping;
+    public bool isCrouched;
     private float jumpTimer;
 
 
@@ -64,10 +66,22 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (Input.GetButtonUp("Jump"))
+        if(Input.GetButtonUp("Jump"))
         {
             isJumping = false;
             jumpTimer = 0f;
+        }
+
+        if(Input.GetButtonDown("Fire2"))
+            {
+            GameManager.Instance.PauseObstacles();
+            isCrouched = true;
+        }
+
+        if(Input.GetButtonUp("Fire2"))
+        {
+            GameManager.Instance.ResumeObstacles();
+            isCrouched = false;
         }
     }
 }

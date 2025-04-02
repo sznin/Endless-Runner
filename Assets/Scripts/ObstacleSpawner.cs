@@ -14,6 +14,8 @@ public class ObstacleSpawner : MonoBehaviour
     private float timeUntilObstacleSpawn;
     public float obstacleSpawnTime = 2f;
 
+    public bool canSpawn = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +29,12 @@ public class ObstacleSpawner : MonoBehaviour
         {
             Spawn();
         }
+    
+        if(GameManager.Instance.canSpawn == true)
+        {
+            SpawnLoop();
+        }
 
-        SpawnLoop();
     }
 
     private void SpawnLoop()
@@ -52,5 +58,8 @@ public class ObstacleSpawner : MonoBehaviour
         Rigidbody2D obstacleRB = spawnedObstacle.GetComponent<Rigidbody2D>();
 
         obstacleRB.velocity = Vector2.left * obstacleSpeed;
+        GameManager.Instance.currentObstacleSpeed = obstacleSpeed;
+
+        GameManager.Instance.activeObstacles.Add(spawnedObstacle);
     }
 }

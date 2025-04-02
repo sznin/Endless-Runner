@@ -12,6 +12,8 @@ public class PlayerCollisions : MonoBehaviour
         {
             Debug.Log("Collision with obstacle");
             gameObject.SetActive(false);
+            GameManager.Instance.isPlaying = false;
+            GameManager.Instance.PauseObstacles();
         }
 
         if (collision.GetComponent<Collectable>() == true)
