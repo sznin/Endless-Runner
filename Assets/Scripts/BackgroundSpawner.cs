@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObstacleSpawner : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
 
     [SerializeField] private List<GameObject> obstaclePrefabs = new List<GameObject>();
-    [SerializeField] private float obstacleSpeed = 3f;
+    [SerializeField] private float obstacleSpeed = 2.5f;
 
     [SerializeField] private float spawnTimeMinimun = 2f;
     [SerializeField] private float spawnTimeMax = 5f;
@@ -19,18 +19,18 @@ public class ObstacleSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.P))
+        if (Input.GetKeyUp(KeyCode.P))
         {
             Spawn();
         }
-    
-        if(GameManager.Instance.canSpawn == true)
+
+        if (GameManager.Instance.canSpawn == true)
         {
             SpawnLoop();
         }
@@ -41,7 +41,7 @@ public class ObstacleSpawner : MonoBehaviour
     {
         timeUntilObstacleSpawn += Time.deltaTime;
 
-        if(timeUntilObstacleSpawn >= obstacleSpawnTime)
+        if (timeUntilObstacleSpawn >= obstacleSpawnTime)
         {
             Spawn();
             obstacleSpawnTime = Random.Range(spawnTimeMinimun, spawnTimeMax);
@@ -60,7 +60,7 @@ public class ObstacleSpawner : MonoBehaviour
         Rigidbody2D obstacleRB = spawnedObstacle.GetComponent<Rigidbody2D>();
 
         obstacleRB.velocity = Vector2.left * obstacleSpeed;
-       // GameManager.Instance.currentObstacleSpeed = obstacleSpeed;
+        // GameManager.Instance.currentObstacleSpeed = obstacleSpeed;
 
         GameManager.Instance.activeObstacles.Add(spawnedObstacle);
     }

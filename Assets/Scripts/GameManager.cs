@@ -26,8 +26,11 @@ public class GameManager : MonoBehaviour
 
     public float currentObstacleSpeed;
     public float maxObstacleSpeed;
+    public float acceleration = 0.1f;
 
     public bool canSpawn = true;
+
+    public bool isCrouched = false;
 
     
     public string ScoreDisplay()
@@ -38,9 +41,19 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPlaying == true)
+        if (isPlaying == true && !isCrouched)
         {
             currentScore += Time.deltaTime;
+
+
+            if(currentObstacleSpeed < maxObstacleSpeed )
+            {
+                currentObstacleSpeed += acceleration = Time.deltaTime;
+                ResumeObstacles();
+            }
+
+
+            
         }
 
         if(Input.GetKeyDown("j"))
