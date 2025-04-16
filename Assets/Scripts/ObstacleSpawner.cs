@@ -31,7 +31,7 @@ public class ObstacleSpawner : MonoBehaviour
         }
     
         if(GameManager.Instance.canSpawn == true)
-        {
+         {
             SpawnLoop();
         }
 
