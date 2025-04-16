@@ -51,7 +51,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void Spawn()
     {
-        spawnTimeMax /= GameManager.Instance.currentObstacleSpeed / 0.5f;
+       //spawnTimeMax /= GameManager.Instance.currentObstacleSpeed / 0.5f;
 
         GameObject obstacleToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Count)];
 

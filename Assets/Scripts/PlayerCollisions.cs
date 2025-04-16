@@ -14,6 +14,7 @@ public class PlayerCollisions : MonoBehaviour
             gameObject.SetActive(false);
             GameManager.Instance.isPlaying = false;
             GameManager.Instance.PauseObstacles();
+            GameManager.Instance.GameOver();
         }
 
         if (collision.GetComponent<Collectable>() == true)

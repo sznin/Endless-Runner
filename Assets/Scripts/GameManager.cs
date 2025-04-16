@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    #region Singleton definition
-
     public static GameManager Instance;
 
-    private void Awake()
-    {
-        if(Instance == null) Instance = this;
-    }
-
-    #endregion
-
     public GameObject player;
+
+    public GameObject ParallaxManager;
 
     public bool isPlaying;
 
@@ -32,7 +25,12 @@ public class GameManager : MonoBehaviour
 
     public bool isCrouched = false;
 
-    
+
+    private void Awake()
+    {
+        if(Instance == null) Instance = this;
+    }
+
     public string ScoreDisplay()
     {
         return Mathf.RoundToInt(currentScore).ToString();
@@ -56,16 +54,26 @@ public class GameManager : MonoBehaviour
             
         }
 
-        if(Input.GetKeyDown("j"))
+        if(Input.GetKeyDown("r"))
         {
-            ResetGame();
+            
+            if(isPlaying == true)
+            {
+                ResetGame();
+            }
+            else
+            {
+                ResetGame();
+                UserInterfaceManager.Instance.GameOverDisplay();
+            }
         }
     }
 
     public void GameOver()
     {
-        currentScore = 0;
+        
         isPlaying = false;
+        UserInterfaceManager.Instance.GameOverDisplay();
     }
 
     public void ResetGame()

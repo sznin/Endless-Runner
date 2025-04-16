@@ -17,8 +17,28 @@ public class PlayerMovement : MonoBehaviour
     public bool isCrouched;
     private float jumpTimer;
 
+    // create a reference to the Animator
+    public class CharacterAnimator : MonoBehaviour
+    {
+        private Animator animator;
 
+        void Start()
+        {
+            // Get the Animator component on this GameObject
+            animator = GetComponent<Animator>();
+        }
 
+        void Update()
+        {
+            // Example: Press "LeftShift" to toggle run animation
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                bool isRunning = animator.GetBool("Run");
+                animator.SetBool("Run", !isRunning);
+            }
+
+        }
+    }
     private void Awake()
     {
         playerRB=GetComponent<Rigidbody2D>();

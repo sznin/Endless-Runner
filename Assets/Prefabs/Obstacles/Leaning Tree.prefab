@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -5595831270219585953}
   - component: {fileID: 244559669576122110}
   m_Layer: 0
-  m_Name: Spikes
+  m_Name: Leaning Tree
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,10 +94,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.8467484, y: 1.120927}
+  m_Offset: {x: 0.70423675, y: 1.5159149}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -108,7 +108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5888748, y: 2.5388796}
+  m_Size: {x: 2.7085676, y: 5.243951}
   m_EdgeRadius: 0
 --- !u!1 &1554229438370565387
 GameObject:
@@ -184,7 +184,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.2901961, g: 0.3764706, b: 0.2901961, a: 1}
+  m_Color: {r: 0.1505874, g: 0.2264151, b: 0.1505874, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -268,7 +268,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.2901961, g: 0.3764706, b: 0.2901961, a: 1}
+  m_Color: {r: 0.1505874, g: 0.2264151, b: 0.1505874, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -352,7 +352,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.3018868, g: 0.2187263, b: 0.14382343, a: 1}
+  m_Color: {r: 0.31132078, g: 0.13431403, b: 0.048460316, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -436,7 +436,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.2901961, g: 0.3764706, b: 0.2901961, a: 1}
+  m_Color: {r: 0.1505874, g: 0.2264151, b: 0.1505874, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -520,7 +520,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.2901961, g: 0.3764706, b: 0.2901961, a: 1}
+  m_Color: {r: 0.1505874, g: 0.2264151, b: 0.1505874, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
