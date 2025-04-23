@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee4615d720acb2c4db85665c7150e021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.1
+  scrollSpeed: -0.1
 --- !u!64 &996577452
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2133,11 +2133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2454025177650501796, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: jumpTime
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2454025177650501796, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: jumpForce
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3096501128283269789, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: m_Mass
