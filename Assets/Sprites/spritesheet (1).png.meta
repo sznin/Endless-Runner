@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ceeb0c7c7e865a4ebc7ef600c2d300a
+guid: f6c9e341a244d724bbe53462c68c7ccd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,148 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: REALspritesheet_0
+      name: spritesheet (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 341.3333
-        width: 170.66667
-        height: 170.66667
+        x: 20
+        y: 1352
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 329c23edde85add46917a6bb5977c561
-      internalID: -363232207
+      spriteID: 43be330306858374eb1ce36c309dd3f6
+      internalID: -1900250943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REALspritesheet_1
+      name: spritesheet (1)_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 341.3333
-        width: 170.66667
-        height: 170.66667
+        x: 1188
+        y: 1352
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7af8441af9a944a9f4ae3da4d5f271
-      internalID: -1683319838
+      spriteID: e541a1d182d9cf44095925f458740bee
+      internalID: -390402997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REALspritesheet_2
+      name: spritesheet (1)_2
       rect:
         serializedVersion: 2
-        x: 340
-        y: 341.3333
-        width: 170.66667
-        height: 170.66667
+        x: 2356
+        y: 1352
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47625aae40a844146a102711b6b080b8
-      internalID: -1904195227
+      spriteID: 5f2f493892975604c9b53d1e1eda8934
+      internalID: 480380405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REALspritesheet_3
+      name: spritesheet (1)_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 172
-        width: 171
-        height: 171
+        x: 3524
+        y: 1352
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 905b00d4c9835514ea52cd68d391029c
-      internalID: -645556606
+      spriteID: f7228ce3e1370d04893cac6d7532dde9
+      internalID: -1699997174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REALspritesheet_4
+      name: spritesheet (1)_4
       rect:
         serializedVersion: 2
-        x: 170
-        y: 171.33333
-        width: 170.66667
-        height: 170.66667
+        x: 20
+        y: 0
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aa1cb4140ad7c648b6bd4c679bc7670
-      internalID: 747073515
+      spriteID: 69c1b83432143614fb3a83d0b1dc686b
+      internalID: -2134352011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REALspritesheet_5
+      name: spritesheet (1)_5
       rect:
         serializedVersion: 2
-        x: 340
-        y: 171.33333
-        width: 170.66667
-        height: 170.66667
+        x: 1188
+        y: 0
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f9b121fdfdb42448919cdd11a5d6a87
-      internalID: 1597001109
+      spriteID: d9b266b40f750f54c90427496d01f8aa
+      internalID: -1384007037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REALspritesheet_6
+      name: spritesheet (1)_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1.3333282
-        width: 170.66667
-        height: 170.66667
+        x: 2356
+        y: 0
+        width: 1168
+        height: 1352
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d169bbcdc87705a4fafb0c543cd80081
-      internalID: -1004529531
+      spriteID: 02e9d7f97415c1c4bbac128073799bd7
+      internalID: 895687607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 0
+        width: 1168
+        height: 1352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec078bc6d7203349aef8066541f0ba0
+      internalID: -492248735
       vertices: []
       indices: 
       edges: []
@@ -267,13 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      REALspritesheet_0: -363232207
-      REALspritesheet_1: -1683319838
-      REALspritesheet_2: -1904195227
-      REALspritesheet_3: -645556606
-      REALspritesheet_4: 747073515
-      REALspritesheet_5: 1597001109
-      REALspritesheet_6: -1004529531
+      spritesheet (1)_0: -1900250943
+      spritesheet (1)_1: -390402997
+      spritesheet (1)_2: 480380405
+      spritesheet (1)_3: -1699997174
+      spritesheet (1)_4: -2134352011
+      spritesheet (1)_5: -1384007037
+      spritesheet (1)_6: 895687607
+      spritesheet (1)_7: -492248735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

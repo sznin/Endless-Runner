@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 0b36dd8f27321ee47a117a858e9b1bd0, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -217,8 +217,8 @@ Transform:
   m_GameObject: {fileID: 22526472}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.35, y: -2.62, z: -3.93}
-  m_LocalScale: {x: 2.0272384, y: 2.0272384, z: 2.0272384}
+  m_LocalPosition: {x: -11.35, y: -1.61, z: -3.93}
+  m_LocalScale: {x: 0.43249103, y: 0.43249103, z: 0.43249103}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 605537466}
@@ -285,7 +285,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -363232207, guid: 7ceeb0c7c7e865a4ebc7ef600c2d300a, type: 3}
+  m_Sprite: {fileID: -1900250943, guid: f6c9e341a244d724bbe53462c68c7ccd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -983,7 +983,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -82, y: -80}
+  m_AnchoredPosition: {x: -82, y: -135}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &744004697
@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press R to restart game
+  m_text: Press 'R' to revive
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1033,14 +1033,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.9
-  m_fontSizeBase: 25.9
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_fontStyle: 2
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1205,7 +1205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -179, y: 119.9}
+  m_AnchoredPosition: {x: -352, y: 195}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806124886
@@ -1674,7 +1674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0010033, y: 11.1646}
+  m_AnchoredPosition: {x: 0.0010033, y: 14}
   m_SizeDelta: {x: 453, y: 106.6399}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245198393
@@ -1697,7 +1697,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER DUMBASS!!!!!!!!
+  m_text: 'You died.
+
+
+    Will you come back ?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1719,7 +1722,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 2193
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -1730,7 +1733,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1760,7 +1763,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -74.726776, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2073,19 +2076,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11411412353038231, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: m_Size.x
-      value: 0.9642353
+      value: 1.30476
       objectReference: {fileID: 0}
     - target: {fileID: 11411412353038231, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: m_Size.y
-      value: 1.9028525
+      value: 4.6918902
       objectReference: {fileID: 0}
     - target: {fileID: 11411412353038231, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: m_Offset.x
-      value: -11.509845
+      value: -11.339582
       objectReference: {fileID: 0}
     - target: {fileID: 11411412353038231, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: m_Offset.y
-      value: -2.9524386
+      value: -1.7573817
       objectReference: {fileID: 0}
     - target: {fileID: 990324451178362902, guid: 5614c952405836146a0fec01832e15b6, type: 3}
       propertyPath: m_Name
