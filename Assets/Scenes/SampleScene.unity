@@ -329,6 +329,10 @@ MonoBehaviour:
   - {fileID: 39464758856574811, guid: 897b5a7fc8a256a42a23bdcd69ce378c, type: 3}
   - {fileID: 39464758856574811, guid: 2e4e2ee33cbc14f4691aa78d7094ea30, type: 3}
   - {fileID: 39464758856574811, guid: f699743aa1feb2349b4fadb5faead7c5, type: 3}
+  - {fileID: 39464758856574811, guid: f699743aa1feb2349b4fadb5faead7c5, type: 3}
+  - {fileID: 39464758856574811, guid: 1f8b140150e13404da2ebf76c9259cdf, type: 3}
+  - {fileID: 39464758856574811, guid: 579802cfca2a11d48af5f2573d4d983d, type: 3}
+  - {fileID: 39464758856574811, guid: f6c9771884e6b4b4b8be021c79588f21, type: 3}
   obstacleSpeed: 4
   spawnTimeMinimun: 2
   spawnTimeMax: 5
@@ -678,8 +682,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefabs:
   - {fileID: 3460611162794104650, guid: 06d6e0b4d98bbf2499e730cc02c6b914, type: 3}
-  - {fileID: 3460611162794104650, guid: c56bb587956cab44bbee16174ee42920, type: 3}
+  - {fileID: 3460611162794104650, guid: 8ded920f0e11cd143b1882396dba9262, type: 3}
   - {fileID: 1826717645246391579, guid: 3783e453365c937488bb51cbef26e169, type: 3}
+  - {fileID: 1826717645246391579, guid: 8a2d70b20a0476642b9c81115355f308, type: 3}
+  - {fileID: 1826717645246391579, guid: bb0b747c49101704c99eafa82b7918c6, type: 3}
   obstacleSpeed: 2.5
   spawnTimeMinimun: 2
   spawnTimeMax: 6
